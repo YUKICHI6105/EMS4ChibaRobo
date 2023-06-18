@@ -2962,14 +2962,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-14.05" y="135.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.05" y="36.91" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="5.08" y="74.93" smashed="yes">
-<attribute name="POPULARITY" value="7" x="46.99" y="-13.97" size="1.778" layer="27" display="off"/>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="4.33" y="75.18" smashed="yes">
+<attribute name="POPULARITY" value="7" x="46.24" y="-13.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="46.4" y="74.91" smashed="yes">
-<attribute name="POPULARITY" value="7" x="97.2" y="-13.99" size="1.778" layer="27" display="off"/>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="46.65" y="75.16" smashed="yes">
+<attribute name="POPULARITY" value="7" x="97.45" y="-13.74" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="46.31" y="33.15" smashed="yes">
-<attribute name="POPULARITY" value="7" x="106" y="-55.75" size="1.778" layer="27" display="off"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="46.56" y="32.4" smashed="yes">
+<attribute name="POPULARITY" value="7" x="106.25" y="-56.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="4.42" y="32.15" smashed="yes">
 <attribute name="POPULARITY" value="7" x="73" y="-56.75" size="1.778" layer="27" display="off"/>
@@ -3192,8 +3192,6 @@ design rules under a new name.</description>
 <vertex x="36" y="53.25"/>
 <vertex x="35.5" y="52.75"/>
 </polygon>
-<wire x1="14.21" y1="74.93" x2="30.47" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="30.33" y1="34.79" x2="30.47" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT_POWER">
 <contactref element="U1" pad="4"/>
