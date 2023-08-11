@@ -68,6 +68,10 @@
 <smd name="P$2" x="8.37" y="1.99" dx="1.4" dy="7" layer="1" thermals="no"/>
 <smd name="P$3" x="0.01" y="10.42" dx="2" dy="10.5" layer="1" rot="R90" thermals="no"/>
 <smd name="P$4" x="0" y="-7.54" dx="2" dy="10.5" layer="1" thermals="no"/>
+<wire x1="-13" y1="13" x2="-13" y2="-13" width="0.1524" layer="21"/>
+<wire x1="-13" y1="-13" x2="13" y2="-13" width="0.1524" layer="21"/>
+<wire x1="13" y1="-13" x2="13" y2="13" width="0.1524" layer="21"/>
+<wire x1="13" y1="13" x2="-13" y2="13" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>

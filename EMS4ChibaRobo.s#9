@@ -22599,7 +22599,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="12v" width="0.5" drill="0">
+<class number="1" name="12v" width="2" drill="0">
+</class>
+<class number="2" name="log_out" width="2" drill="0">
 </class>
 </classes>
 <parts>
@@ -23040,7 +23042,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="13.84" y="162.54"/>
 </segment>
 </net>
-<net name="LOG_OUT" class="1">
+<net name="LOG_OUT" class="2">
 <segment>
 <pinref part="U$4" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>

@@ -22874,8 +22874,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pad name="P$2" x="8.4" y="2.15" drill="0.6" shape="square"/>
 <pad name="P$3" x="-8.4" y="2.15" drill="0.6" shape="square"/>
 <pad name="P$4" x="0" y="10.35" drill="0.6" shape="square"/>
-<rectangle x1="-10.5" y1="-2.35" x2="-6.3" y2="6.35" layer="17"/>
-<rectangle x1="6.3" y1="-2.35" x2="10.5" y2="6.35" layer="17"/>
+<rectangle x1="-10" y1="-2" x2="-6.8" y2="6" layer="17"/>
+<rectangle x1="6.8" y1="-2" x2="10" y2="6" layer="17"/>
 <rectangle x1="-7" y1="8" x2="7" y2="13" layer="17"/>
 </package>
 </packages>
