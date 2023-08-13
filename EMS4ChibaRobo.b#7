@@ -2693,8 +2693,8 @@ TS-003</description>
 <pad name="P$2" x="8.4" y="2.15" drill="0.6" shape="square"/>
 <pad name="P$3" x="-8.4" y="2.15" drill="0.6" shape="square"/>
 <pad name="P$4" x="0" y="10.35" drill="0.6" shape="square"/>
-<rectangle x1="-10.5" y1="-2.35" x2="-6.3" y2="6.35" layer="17"/>
-<rectangle x1="6.3" y1="-2.35" x2="10.5" y2="6.35" layer="17"/>
+<rectangle x1="-10" y1="-2" x2="-6.8" y2="6" layer="17"/>
+<rectangle x1="6.8" y1="-2" x2="10" y2="6" layer="17"/>
 <rectangle x1="-7" y1="8" x2="7" y2="13" layer="17"/>
 </package>
 </packages>
@@ -3212,34 +3212,34 @@ design rules under a new name.</description>
 <contactref element="CON4" pad="-"/>
 <contactref element="CON5" pad="-"/>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="26" y="32.25"/>
-<vertex x="26" y="23.75"/>
-<vertex x="26.5" y="23.25"/>
-<vertex x="30.75" y="23.25"/>
-<vertex x="31.25" y="23.75"/>
-<vertex x="31.25" y="32.5"/>
-<vertex x="30.75" y="33"/>
-<vertex x="26.75" y="33"/>
+<vertex x="26.75" y="32.25"/>
+<vertex x="26.75" y="23.75"/>
+<vertex x="27" y="23.5"/>
+<vertex x="30.25" y="23.5"/>
+<vertex x="30.5" y="23.75"/>
+<vertex x="30.5" y="32.25"/>
+<vertex x="30" y="32.5"/>
+<vertex x="27" y="32.5"/>
 </polygon>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="43" y="32.5"/>
-<vertex x="43" y="23.75"/>
-<vertex x="43.5" y="23.25"/>
-<vertex x="47.5" y="23.25"/>
-<vertex x="47.75" y="23.5"/>
-<vertex x="47.75" y="32.5"/>
-<vertex x="47.5" y="32.75"/>
-<vertex x="43.25" y="32.75"/>
+<vertex x="43.5" y="32"/>
+<vertex x="43.5" y="23.75"/>
+<vertex x="43.75" y="23.5"/>
+<vertex x="47" y="23.5"/>
+<vertex x="47.25" y="23.75"/>
+<vertex x="47.25" y="32"/>
+<vertex x="46.75" y="32.5"/>
+<vertex x="44" y="32.5"/>
 </polygon>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="31.5" y="34.75"/>
-<vertex x="42.75" y="34.75"/>
-<vertex x="43" y="35"/>
-<vertex x="43" y="38"/>
-<vertex x="42.75" y="38.25"/>
-<vertex x="31.75" y="38.25"/>
-<vertex x="31.25" y="37.75"/>
-<vertex x="31.25" y="35"/>
+<vertex x="31.5" y="33.75"/>
+<vertex x="42.75" y="33.75"/>
+<vertex x="44" y="35"/>
+<vertex x="44" y="37"/>
+<vertex x="41.75" y="39.25"/>
+<vertex x="31.75" y="39.25"/>
+<vertex x="29.25" y="36.75"/>
+<vertex x="29.25" y="36"/>
 </polygon>
 </signal>
 <signal name="BATT_POWER">

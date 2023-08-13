@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -3212,34 +3212,34 @@ design rules under a new name.</description>
 <contactref element="CON4" pad="-"/>
 <contactref element="CON5" pad="-"/>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="26" y="32.25"/>
-<vertex x="26" y="23.75"/>
-<vertex x="26.5" y="23.25"/>
-<vertex x="30.75" y="23.25"/>
-<vertex x="31.25" y="23.75"/>
-<vertex x="31.25" y="32.5"/>
-<vertex x="30.75" y="33"/>
-<vertex x="26.75" y="33"/>
+<vertex x="26.75" y="32.25"/>
+<vertex x="26.75" y="23.75"/>
+<vertex x="27" y="23.5"/>
+<vertex x="30.25" y="23.5"/>
+<vertex x="30.5" y="23.75"/>
+<vertex x="30.5" y="32.25"/>
+<vertex x="30" y="32.5"/>
+<vertex x="27" y="32.5"/>
 </polygon>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="43" y="32.5"/>
-<vertex x="43" y="23.75"/>
-<vertex x="43.5" y="23.25"/>
-<vertex x="47.5" y="23.25"/>
-<vertex x="47.75" y="23.5"/>
-<vertex x="47.75" y="32.5"/>
-<vertex x="47.5" y="32.75"/>
-<vertex x="43.25" y="32.75"/>
+<vertex x="43.5" y="32"/>
+<vertex x="43.5" y="23.75"/>
+<vertex x="43.75" y="23.5"/>
+<vertex x="47" y="23.5"/>
+<vertex x="47.25" y="23.75"/>
+<vertex x="47.25" y="32"/>
+<vertex x="46.75" y="32.5"/>
+<vertex x="44" y="32.5"/>
 </polygon>
 <polygon width="0.25" layer="16" pour="cutout">
-<vertex x="31.5" y="34.75"/>
-<vertex x="42.75" y="34.75"/>
-<vertex x="43" y="35"/>
-<vertex x="43" y="38"/>
-<vertex x="42.75" y="38.25"/>
-<vertex x="31.75" y="38.25"/>
-<vertex x="31.25" y="37.75"/>
-<vertex x="31.25" y="35"/>
+<vertex x="29.75" y="33.75"/>
+<vertex x="44" y="33.75"/>
+<vertex x="44.5" y="34.25"/>
+<vertex x="44.5" y="38.75"/>
+<vertex x="44" y="39.25"/>
+<vertex x="29.75" y="39.25"/>
+<vertex x="29.5" y="39"/>
+<vertex x="29.5" y="34"/>
 </polygon>
 </signal>
 <signal name="BATT_POWER">
@@ -3251,7 +3251,6 @@ design rules under a new name.</description>
 <vertex x="33.75" y="25.5"/>
 </polygon>
 <contactref element="S1" pad="P$1"/>
-<wire x1="37.53" y1="6.79" x2="37" y2="19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!EMS">
 <contactref element="R2" pad="1"/>
@@ -3287,10 +3286,6 @@ design rules under a new name.</description>
 <vertex x="34" y="68"/>
 </polygon>
 <contactref element="S1" pad="P$4"/>
-<wire x1="21.6" y1="63" x2="30.4" y2="63" width="0" layer="19" extent="1-1"/>
-<wire x1="30.47" y1="46.93" x2="30.4" y2="63" width="0" layer="19" extent="1-1"/>
-<wire x1="21.41" y1="46.93" x2="30.47" y2="46.93" width="0" layer="19" extent="1-1"/>
-<wire x1="37" y1="36.35" x2="30.47" y2="46.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V" class="1">
 <contactref element="F1" pad="2"/>
