@@ -3217,7 +3217,7 @@ design rules under a new name.</description>
 <vertex x="27" y="23.5"/>
 <vertex x="30.25" y="23.5"/>
 <vertex x="30.5" y="23.75"/>
-<vertex x="30.5" y="32.75"/>
+<vertex x="30.5" y="32.25"/>
 <vertex x="30" y="32.5"/>
 <vertex x="27" y="32.5"/>
 </polygon>
