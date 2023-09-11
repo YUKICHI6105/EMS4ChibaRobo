@@ -3203,7 +3203,7 @@ design rules under a new name.</description>
 <signal name="BATT_POWER">
 <contactref element="CON1" pad="+"/>
 <contactref element="S1" pad="P$1"/>
-<polygon width="0.508" layer="1">
+<polygon width="0.508" layer="1" thermals="no">
 <vertex x="33.5" y="0.75"/>
 <vertex x="33.5" y="25.25"/>
 <vertex x="34" y="25.75"/>
@@ -3213,7 +3213,6 @@ design rules under a new name.</description>
 <vertex x="41.5" y="0"/>
 <vertex x="34.25" y="0"/>
 </polygon>
-<wire x1="37.53" y1="6.79" x2="37" y2="19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!EMS">
 <contactref element="R2" pad="1"/>
